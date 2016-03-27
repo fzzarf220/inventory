@@ -1,0 +1,30 @@
+/* Styles go here */
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background: gray;
+  color: white;
+  padding: 2px 5px;
+}
+
+table td {
+  border-bottom: 1px solid rgba(100,100,100,.2);
+  padding: 2px 5px;
+}
+
+table td.align_left {
+  text-align: left;
+}
+
+table td.align_right {
+  text-align: right;
+}
+
+button.btn.btn-danger {
+  background: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px
+}
